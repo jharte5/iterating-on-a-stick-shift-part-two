@@ -46,9 +46,19 @@ const makeExtinct = function(dinosaur) {
 }
 
 const isCarnivore = function(dinosaur) {
+  if (dinosaur.carnivore === true) {
+    return true
+  } else {
+    dinosaur.carnivore !== true
+  } return false
 }
 
 const isExtinct = function(dinosaur) {
+  if (dinosaur.extinct === true) {
+    return true
+  } else {
+    dinosaur.extinct !== true
+  } return false
 }
 
 const isTriassic = function(dinosaur) {
