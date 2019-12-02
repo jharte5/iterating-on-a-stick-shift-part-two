@@ -62,12 +62,28 @@ const isExtinct = function(dinosaur) {
 }
 
 const isTriassic = function(dinosaur) {
+  if (dinosaur.period === 'Triassic') {
+    return true
+  } else {
+    dinosaur.period !== 'Triassic'
+  } return false
+
 }
 
 const isJurassic = function(dinosaur) {
+  if (dinosaur.period === 'Jurassic') {
+    return true
+  } else {
+    dinosaur.period !== 'Jurassic'
+  } return false
 }
 
 const isCretaceous = function(dinosaur) {
+  if (dinosaur.period === 'Cretaceous') {
+    return true
+  } else {
+    dinosaur.period !== 'Cretaceous'
+  } return false
 }
 
 
